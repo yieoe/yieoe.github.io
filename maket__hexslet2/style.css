@@ -1,0 +1,507 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./Fonts/Roboto-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Roboto";
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+.header {
+  background-color: #202020;
+}
+.header__container {
+  max-width: 1290px;
+  margin: auto;
+  /* border: 1px solid red; */
+  padding: 25px 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 139px;
+  align-items: center;
+}
+.header__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 79px;
+}
+.header__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+.header__link:hover {
+  color: #ff6e30;
+}
+.header__link:focus-visible {
+  color: #ffffff;
+  background-color: #bc572b;
+  outline: none;
+}
+.header__link:active {
+  background-color: none;
+  color: #ce4307;
+}
+
+/* INTRO */
+.intro__container {
+  max-width: 1290px;
+  gap: 30px;
+  padding-top: 41px;
+  padding-bottom: 30px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.intro__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  gap: 30px;
+}
+.intro__left {
+  background-image: url(./maket__hexslet__img/intro1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 58px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.intro__subtitle {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.intro__main-image {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.intro__more {
+  border: none;
+  background-color: #ff6e30;
+  color: #ffffff;
+  padding: 22px 15px;
+  font-size: 16px;
+}
+
+.intro__main-image,
+.intro__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.intro__descr {
+  color: #ffffff;
+  /* max-width: 427px; */
+}
+.intro__title {
+  color: #ffffff;
+  max-width: 427px;
+}
+
+/* ABOUT */
+.about {
+  background-color: #202020;
+}
+.about__container {
+  max-width: 1290px;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  margin: auto;
+  background-color: #202020;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.about__container-right {
+  font-weight: 700;
+  font-width: 630px;
+  font-size: 16px;
+  /* line-height: 1.7; */
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.about__dscr {
+  /* margin: 0; */
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  font-family: "Roboto";
+  color: #ffffff;
+}
+.about__input {
+  outline: 0;
+  margin: 16px 30px 69px 0px;
+  width: 470px;
+  height: 50px;
+  padding-left: 23px;
+  border: none;
+
+  background-color: #4a4a4a;
+}
+.about__button {
+  border: none;
+  padding: 15px 22px 15px 22px;
+  background-color: #ff6e30;
+  color: #ffffff;
+  cursor: pointer;
+}
+.about__text {
+  font-size: 16px;
+  color: white;
+  margin: 0;
+  line-height: 2;
+  margin-bottom: 16px;
+  font-family: "Roboto";
+}
+.about__camera {
+  padding-top: 63px;
+}
+
+.about__camera {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* PROJECTS */
+/* .container__photos{
+    display: grid;
+    grid-template-rows: auto;
+} */
+.containers {
+  max-width: 1290px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  padding-top: 68px;
+}
+
+.projects__left__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.projects__right__top {
+  background-image: url(./maket__hexslet__img/глаз.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.project__right__text {
+  color: #ffffff;
+  font-size: 24px;
+  width: 250px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.project__right__descr {
+  color: #ffffff;
+  font-size: 16px;
+  width: 292px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.project__right__button {
+  border: 3px solid #ff6e30;
+  padding: 12px 19px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 54px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.project__right__button:hover {
+  border: none;
+  background-color: #ff6e30;
+  padding: 15px 22px;
+}
+
+.project__right__button:focus-visible {
+  border: 3px solid #ff6e30;
+  background-color: #bc572b;
+  padding: 12.4px 19px;
+  outline: none;
+}
+
+.project__right__button:active {
+  border: none;
+  background-color: #ce4307;
+  padding: 15px 22px;
+}
+
+.project__left__bottom {
+  background-image: url(./maket__hexslet__img/глаз.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 22px;
+  padding-left: 30px;
+}
+
+.project__left__text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.project__left__descr {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 292px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.project__left__button {
+  border: 3px solid #ff6e30;
+  padding: 12px 19px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 101px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.project__left__button:hover {
+  border: none;
+  background-color: #ff6e30;
+  padding: 15px 22px;
+}
+
+.project__left__button:focus-visible {
+  border: 3px solid #ff6e30;
+  background-color: #bc572b;
+  padding: 12.4px 19px;
+  outline: none;
+}
+
+.project__left__button:active {
+  border: none;
+  background-color: #ce4307;
+  padding: 15px 22px;
+}
+
+.projects__right__bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.right__project1 {
+  /* max-width: 300px; */
+}
+
+.right__project2 {
+  /* max-width: 300px; */
+}
+
+.project__date {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto;
+  padding-left: 18px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.project__date__white {
+  background-image: url(./photo/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto;
+  padding-left: 18px;
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.project__img__left {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project__img__right {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* CONTACTS */
+
+.contacts__container {
+  max-width: 1290px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  padding: 50px;
+}
+.map {
+  position: relative;
+}
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 4px;
+  background-color: rgba(32, 32, 32, 0.82);
+  max-width: 410px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+.banner__title {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 24px;
+}
+.banner__address {
+  font-style: normal;
+  margin-bottom: 2px;
+  color: #cacaca;
+  font-size: 16px;
+}
+.banner__tel {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ff6e30;
+  background-image: url(./photo/calendar.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+}
+
+.form__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #202020;
+}
+
+.form__dscr {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #202020;
+  line-height: 22px;
+  max-width: 330px;
+}
+.form__inp,
+.form__text {
+  border: none;
+  outline: none;
+  padding: 15px 22px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #e9e9e9;
+}
+.form__text {
+  resize: none;
+  height: 149px;
+}
+.form__send {
+  border: none;
+  padding: 15px 22px;
+  color: #ffffff;
+  background-color: #ff6e30;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+  /* max-width: 1920px; */
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  max-width: 100%;
+  background-color: #202020;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__content {
+  display: flex;
+  max-width: 1290px;
+  gap: 170px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.container__text {
+  max-width: 361px;
+}
+.footer__dscr {
+  color: #ffffff;
+}
+.logo__text {
+  margin: 6px;
+  padding: 0%;
+  color: #e9e9e9;
+}
+.footer__icons {
+  padding-left: 25px;
+}
+.footer__more-white {
+  color: #e9e9e9;
+}
+.footer__svg {
+  fill: #cacaca;
+}
+.footer__svg:hover {
+  fill: #ff6e30;
+}
+.footer__svg:focus-visible {
+  fill: #bc572b;
+  outline: none;
+}
+.footer__svg:active {
+  fill: #ce4307;
+}
+
+.footer__svgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projects__right__top {
+  background-image: url(./maket__hexslet__img/гора.jpg);
+}

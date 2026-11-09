@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./media.css" />
   </head>
   <body>
     <header class="header">
       <div class="header__container">
-        <img class="header__logo" src="./maket__hexslet__img/Logo (1).svg" alt="" />
+        <img
+          src="./maket__hexslet__img/footer-logo.svg"
+          alt=""
+          class="header__logo"
+        />
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
@@ -37,158 +41,309 @@
         />
       </div>
     </header>
-    <section class="intro">
-      <div class="intro__container">
-        <div class="intro__left">
-          <p class="intro__descr">Мастер-класс от Игоря Робова</p>
-          <h1 class="intro__title">Неоновый фотосет 2.0 7 июля 20:00</h1>
-          <button class="intro__more">Узнать больше</button>
+    <main class="main">
+      <section class="intro">
+        <div class="intro__container">
+          <div class="intro__left">
+            <!-- <img src="./photo/Photo.jpg" alt="" class="intro__photo"> -->
+            <p class="intro__descr">Мастер-класс от Игоря Робова</p>
+            <h1 class="intro__title">
+              Неоновый фотосет 2.0 7 июля 20:00
+              <time datetime="2026-07-07T29:00"></time>
+            </h1>
+            <button class="intro__more">Узнать больше</button>
+          </div>
+          <div class="intro__right">
+            <h2 class="intro__subtitle">
+              Работы участников предыдущего мастер-класса
+            </h2>
+            <img
+              src="./maket__hexslet__img/intro2.jpg"
+              alt=""
+              class="intro__main-image"
+            />
+            <img
+              src="./maket__hexslet__img/intro3.jpg"
+              alt=""
+              class="intro__image"
+            />
+            <img
+              src="./maket__hexslet__img/intro4.jpg"
+              alt=""
+              class="intro__image"
+            />
+          </div>
         </div>
-        <div class="intro__right">
-          <h2 class="intro__subtitle">
-            Работы участников предыдущего мастер-класса
-          </h2>
-          <img
-            class="intro__main-image"
-            src="./maket__hexslet__img/intro2.jpg"
-            alt=""
-          />
-          <img
-            class="intro__image"
-            src="./maket__hexslet__img/intro3.jpg"
-            alt=""
-          />
-          <img intro__image src="./maket__hexslet__img/intro4.jpg" alt="" />
+      </section>
+      <section class="about">
+        <div class="about__container">
+          <div class="about__container-right">
+            <h2 class="about__title">О студии</h2>
+            <p class="about__text">
+              В рамках спецификации современных стандартов, интерактивные
+              прототипы, инициированные исключительно синтетически, ограничены
+              исключительно образом мышления. Предварительные выводы
+              неутешительны: высокотехнологичная концепция общественного уклада
+              требует от нас анализа соответствующих условий активизации!
+              Следует отметить, что семантический разбор внешних противодействий
+              фиксирует необходимость распределения внутренних резервов и
+              ресурсов. Безусловно, граница обучения кадров предоставляет
+              широкие возможности для первоочередных требований. Повседневная
+              практика показывает, что глубокий уровень погружения предполагает
+              независимые способы реализации новых принципов формирования
+              материально-технической и кадровой базы. Приятно, граждане,
+              наблюдать, как явные признаки институционализации являются только
+              методом политического участия и нарушающими общечеловеческие нормы
+              этики.
+            </p>
+          </div>
+          <div class="about__container-left">
+            <img
+              src="./maket__hexslet__img/about__container-left-camera.jpg"
+              alt=""
+              class="about__camera"
+            />
+            <p class="about__dscr">Подписаться на рассылку</p>
+            <input class="about__input" type="email" placeholder="Email" />
+            <button class="about__button">Отправить</button>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="about">
-      <div class="about__container">
-        <div class="about__container-right">
-          <h2 class="about__container-right-title">О студии</h2>
-          <p class="about__container-right-descr">
-            В рамках спецификации современных стандартов, интерактивные
-            прототипы, инициированные исключительно синтетически, ограничены
-            исключительно образом мышления. Предварительные выводы
-            неутешительны: высокотехнологичная концепция общественного уклада
-            требует от нас анализа соответствующих условий активизации! Следует
-            отметить, что семантический разбор внешних противодействий фиксирует
-            необходимость распределения внутренних резервов иресурсов.
-            Безусловно, граница обучения кадров предоставляет широкие
-            возможности для первоочередных требований. Повседневная практика
-            показывает, что глубокий уровень погружения предполагает независимые
-            способы реализации новых принципов формирования
-            материально-технической и кадровой базы. Приятно, граждане,
-            наблюдать, как явные признаки институционализации являются только
-            методом политического участия и нарушающими общечеловеческие нормы
-            этики.
-          </p>
+      </section>
+      <section class="projects">
+        <div class="containers">
+          <div class="projects__left__top">
+            <div class="project1">
+              <img
+                src="./maket__hexslet__img/scenery1.jpg"
+                alt="project1"
+                class="project__img__left"
+              />
+              <p class="project__text">
+                Синтетически, смешаны с не уникальными данными до степени…
+              </p>
+              <p class="project__date">16 июня</p>
+            </div>
+            <div class="project2">
+              <img
+                src="./maket__hexslet__img/portret2.jpg"
+                alt="project2"
+                class="project__img__left"
+              />
+              <p class="project__text">
+                В своём стремлении улучшить опыт мы упускаем, что явные...
+              </p>
+              <p class="project__date">28 мая</p>
+            </div>
+            <div class="project3">
+              <img
+                src="./maket__hexslet__img/object3.jpg"
+                alt="project3"
+                class="project__img__left"
+              />
+              <p class="project__text">
+                Равным образом, высокое качество позиционных…
+              </p>
+              <p class="project__date">14 мая</p>
+            </div>
+          </div>
+          <div class="projects__right__top">
+            <p class="project__date__white">9 апреля</p>
+            <h2 class="project__right__text">Семантический разбор</h2>
+            <p class="project__right__descr">
+              В рамках спецификации современных стандартов, интерактивные
+              прототипы
+            </p>
+            <button class="project__right__button">О проекте</button>
+          </div>
+          <div class="project__left__bottom">
+            <p class="project__date__white">20 марта</p>
+            <h2 class="project__left__text">Забвение</h2>
+            <p class="project__left__descr">
+              Играет важную роль в формировании глубокомысленных рассуждений
+            </p>
+            <button class="project__left__button">О проекте</button>
+          </div>
+          <div class="projects__right__bottom">
+            <div class="right__project1">
+              <img
+                src="./maket__hexslet__img/апельсины.jpg"
+                alt="project4"
+                class="project__img__right"
+              />
+              <p class="project__text__right">
+                Как принято считать, многие известные личности и по сей день
+                остаются уделом либералов…
+              </p>
+              <p class="project__date">9 марта</p>
+            </div>
+            <div class="right__project2">
+              <img
+                src="./maket__hexslet__img/девушка.png"
+                alt="project5"
+                class="project__img__right"
+              />
+              <p class="project__text__right">
+                С учётом сложившейся международной обстановки, новая модель
+                организационной…
+              </p>
+              <p class="project__date">1 марта</p>
+            </div>
+          </div>
         </div>
-        <div class="about__container-left">
-          <img
-            src="./maket__hexslet__img/about__container-left-camera.jpg"
-            alt="camera"
-            class="about__container-left-camera"
-          />
-          <p class="about__container-left-descr">Подписаться на рассылку</p>
-          <input
-            class="about__container-left-input"
-            type="email"
-            placeholder="Email"
-          />
-          <button class="about__container-left-button">Отправить</button>
-        </div>
-      </div>
-    </section>
-    <div class="containers">
-                <div class="projects__left__top">
-                    <div class="project1">
-                        <img src="./photo/landscape.jpg" alt="project1" class="project__img__left">
-                        <p class="project__text">Синтетически, смешаны с не уникальными данными до степени…</p>
-                        <p class="project__date">16 июня</p>
+      </section>
+      <!-- <div class="container">
+                <h3>Наши проекты</h3>
+                <div class="container__photos">
+                    <div class="container__landscape">
+                        <img src="./photo/landscape.jpg" alt="">
+                        <p class="scenery">Синтетически, смешаны c не уникальными данными до степени…</p>
+                        <data value="16:06:26">16 июня</data>
                     </div>
-                    <div class="project2">
-                        <img src="./photo/portrait.jpg" alt="project2" class="project__img__left">
-                        <p class="project__text">В своём стремлении улучшить опыт мы упускаем, что явные...</p>
-                        <p class="project__date">28 мая</p>
+                    <div class="container__portrait">
+                        <img src="./photo/portrait.jpg" alt="">
+                        <p class="hfgdf">В своём стремлении улучшить опыт мы упускаем, что явные...</p>
+                        <data value="28:05:2026">28 мая</data>
                     </div>
-                    <div class="project3">
-                        <img src="./photo/objets.jpg" alt="project3" class="project__img__left">
-                        <p class="project__text">Равным образом, высокое качество позиционных…</p>
-                        <p class="project__date">14 мая</p>
+                    <div class="container__objects">
+                        <img src="./photo/objets.jpg" alt="">
+                        <p class="rghrusgh">Равным образом, высокое качество позиционных…</p>
+                        <data value="14:05:2026">14 мая</data>
                     </div>
                 </div>
-                <div class="projects__right__top">
-                    <p class="project__date__white">9 апреля</p>
-                    <h2 class="project__right__text">Семантический разбор</h2>
-                    <p class="project__right__descr">В рамках спецификации современных стандартов, интерактивные прототипы</p>
-                    <button class="project__right__button">О проекте</button>
+                <div class="container__analisis">
+                    <data value="09:04:2026">9 апреля</data>
+                    <title class="analisis__title">Cемантический разбор</title>
+                    <p class="analisis__text">В рамках спецификации современных стандартов, интерактивные прототипы</p>
+                    <button class="analisis">О проекте</button>
                 </div>
-                <div class="project__left__bottom">
-                    <p class="project__date__white">20 марта</p>
-                    <h2 class="project__left__text">Забвение</h2>
-                    <p class="project__left__descr">Играет важную роль в формировании глубокомысленных рассуждений  </p>
-                    <button class="project__left__button">О проекте</button>
+                <div class="container__oblivion">
+                    <data value="09:04:2026">20 апреля</data>
+                    <title class="analisis__title">Забвение</title>
+                    <p class="analisis__text">Играет важную роль в формировании глубокомысленных рассуждений</p>
+                    <button class="analisis">О проекте</button>
                 </div>
-                <div class="projects__right__bottom">
-                    <div class="right__project1">
-                        <img src="./photo/fruits.jpg" alt="project4" class="project__img__right">
-                        <p class="project__text__right">Как принято считать, многие известные личности и по сей день остаются уделом либералов…</p>
-                        <p class="project__date">9 марта</p>
+                <div class="container__photos2">
+                    <div class="container__photos">
+                    <div class="container__landscape">
+                        <img src="./photo/fruits.jpg" alt="">
+                        <p class="scenery">Как принято считать, многие известные личности и по сей день остаются уделом либералов…</p>
+                        <data value="09:03:2026">9 марта</data>
                     </div>
-                    <div class="right__project2">
-                        <img src="./photo/portrait 2.jpg" alt="project5" class="project__img__right">
-                        <p class="project__text__right">С учётом сложившейся международной обстановки, новая модель организационной…</p>
-                        <p class="project__date">1 марта</p>
+                    <div class="container__portrait">
+                        <img src="./photo/portrait 2.jpg" alt="">
+                        <p class="hfgdf">С  учётом сложившейся международной обстановки, новая модель организационной…</p>
+                        <data value="01:03:2026">1 марта</data>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+      <section class="contacts">
+        <div class="contacts__container">
+          <div class="map">
+            <div style="position: relative; overflow: hidden">
+              <a
+                href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 0px;
+                "
+                >Москва</a
+              ><a
+                href="https://yandex.ru/maps/213/moscow/?ll=37.696681%2C55.715157&utm_medium=mapframe&utm_source=maps&z=14"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 14px;
+                "
+                >Яндекс Карты</a
+              ><iframe
+                src="https://yandex.ru/map-widget/v1/?ll=37.696681%2C55.715157&z=14"
+                width="100%"
+                height="460px"
+                frameborder="1"
+                allowfullscreen="true"
+                style="position: relative"
+              ></iframe>
+            </div>
+            <div class="banner">
+              <h2 class="banner__title">Студия High pass</h2>
+              <address class="banner__address">
+                107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев
+                Плаза», этаж 8, офис № 82
+              </address>
+              <a class="banner__tel" tel:+749542423532>+7 495 424-23-532</a>
+            </div>
+          </div>
+          <div class="form">
+            <h2 class="form__title">Оставить заявку</h2>
+            <p class="form__dscr">
+              Оставьте ваши данные, указав в графе «Комментарий» желаемые время
+              и дату съёмки или другого мероприятия
+            </p>
 
-    <section class="contancts">
-    <div class="contacts__container">
-      <div class="map"><div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?ll=37.695420%2C55.712181&utm_medium=mapframe&utm_source=maps&z=15.56" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.695420%2C55.712181&z=15.56" width="100%" height="460px" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-
-        <div class="banner">
-          <h2 class="banner__title">Студия «High pass»</h2>
-          <address class="banner__address">107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев Плаза», этаж 8, офис № 82</address>
-          <a class="banner__tell" href="tell:+749542423532">+7 495 424-23-532</a>
+            <form>
+              <input type="text" class="form__inp" placeholder="Имя" />
+              <input type="text" class="form__inp" placeholder="Email" />
+              <textarea class="form__text" placeholder="Комментарий"></textarea>
+              <button class="form__send">Отправить</button>
+            </form>
+          </div>
         </div>
-      </div>
-      <div class="form">
-        <h2 class="form__title">Оставить заявку</h2>
-        <p class="form__descr">Оставьте ваши данные, указав в графе «Комментарий» желаемые время и дату съёмки или другого мероприятия</p>
-        <form>
-          <input type="text" class="form__inp" placeholder="Name">
-          <input type="text" class="form__inp" placeholder="Email">
-          <textarea class="form__text" placeholder="Комментарий" ></textarea>
-          <button class="form__send">Отправить</button>
-        </form>
-      </div>
-    </div>
-
-    </section>
-
-
-
-
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer__content">
-      <div class="container-logo">
-        <img src="./maket__hexslet__img/footer-logo.svg" alt="high pass"> 
-        <p class="logo-text">Фотостудия High pass® 2018–2020</p>
-    </div>
-     <div class="container-text"> 
-      <p class="footer-descr white">Которая из моих фотографий самая любимая? Та, которую я собираюсь снять завтра.
-        © Имоджен Каннингем</p>
-      </div>
-       <div class="container-more">
-        <p class="footer-more white">Больше интересного:</p>
-        <img src="./maket__hexslet__img/social.svg" alt="" class="footer__icins">
-        <img src="./maket__hexslet__img/vk.svg" alt="" class="footer__icins">
-        
-      </div>
+        <div class="container__logo">
+          <img src="./maket__hexslet__img/Logo (1).svg" alt="logo" />
+          <p class="logo__text">Фотостудия High pass® 2018–2020</p>
+        </div>
+        <div class="container__text">
+          <p class="footer__dscr">
+            Которая из моих фотографий самая любимая? Та, которую я собираюсь
+            снять завтра. © Имоджен Каннингем
+          </p>
+        </div>
+        <div class="container__more">
+          <p class="footer__more-white">Больше интересно</p>
 
+          <div class="footer__svgs">
+            <svg
+              tabindex="0"
+              class="footer__svg"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.8527 9.99062C12.8527 11.2273 13.8552 12.2299 15.0919 12.2299C16.3286 12.2299 17.3311 11.2273 17.3311 9.99062C17.3311 8.75396 16.3286 7.7514 15.0919 7.7514C13.8552 7.7514 12.8527 8.75396 12.8527 9.99062Z"
+              />
+              <path
+                d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71572 0 0 6.71573 0 15C0 23.2843 6.71572 30 15 30ZM9.67501 9.99055C9.67501 6.99892 12.1002 4.57364 15.0919 4.57364C18.0836 4.57364 20.5088 6.99892 20.5088 9.99055C20.5088 12.9822 18.0836 15.4077 15.0919 15.4077C12.1002 15.4077 9.67501 12.9822 9.67501 9.99055ZM20.5412 18.194C20.4724 18.2491 19.1729 19.2761 17.0043 19.7179L20.2777 22.9622C20.8534 23.5369 20.854 24.4695 20.2793 25.0451C19.7046 25.6207 18.7722 25.6216 18.1964 25.0467L15.0184 21.952L12.1319 25.0268C11.8429 25.3266 11.4575 25.4774 11.0716 25.4774C10.7035 25.4774 10.3351 25.3404 10.0493 25.0648C9.46372 24.5001 9.44677 23.5677 10.0114 22.9822L13.1185 19.735C10.8891 19.3036 9.53591 18.2499 9.46622 18.194C8.83165 17.6851 8.72971 16.7581 9.23862 16.1235C9.74746 15.4889 10.6744 15.387 11.3091 15.8958C11.3225 15.9067 12.7378 16.9699 15.0183 16.9715C17.2989 16.9699 18.6849 15.9067 18.6983 15.8958C19.333 15.387 20.2599 15.4889 20.7688 16.1235C21.2777 16.7581 21.1757 17.6851 20.5412 18.194Z"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            <svg
+              tabindex="0"
+              class="footer__svg"
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 0C6.71601 0 0 6.7157 0 15C0 23.2843 6.71601 30 15 30C23.284 30 30 23.2843 30 15C30 6.7157 23.284 0 15 0ZM22.6088 16.6223C23.3079 17.3052 24.0476 17.9478 24.6752 18.7013C24.9533 19.0346 25.2154 19.3792 25.4148 19.7669C25.6996 20.3196 25.4425 20.9257 24.9477 20.9586L21.8747 20.958C21.081 21.0236 20.4494 20.7035 19.9169 20.1609C19.4919 19.7285 19.0975 19.2666 18.6881 18.8194C18.5208 18.6359 18.3447 18.4631 18.1347 18.3272C17.7158 18.0546 17.3518 18.1381 17.1118 18.5758C16.8672 19.0211 16.8114 19.5146 16.788 20.0102C16.7546 20.7348 16.5361 20.9242 15.809 20.9583C14.2555 21.031 12.7814 20.7953 11.4114 20.0121C10.2028 19.3212 9.26732 18.3462 8.45218 17.2423C6.86486 15.0902 5.64921 12.7283 4.55693 10.2985C4.3111 9.7513 4.49095 9.45852 5.09463 9.44716C6.0976 9.42783 7.10056 9.43028 8.10353 9.44624C8.51172 9.45268 8.78179 9.68624 8.93862 10.0714C9.48062 11.4049 10.1451 12.6737 10.9777 13.8503C11.1996 14.1637 11.4261 14.4761 11.7486 14.6974C12.1047 14.9417 12.376 14.861 12.5438 14.4635C12.6513 14.2109 12.6976 13.9409 12.7209 13.6702C12.8007 12.743 12.8102 11.8162 12.6721 10.8927C12.5862 10.3148 12.2612 9.94158 11.6851 9.83233C11.3917 9.77678 11.4347 9.66813 11.5774 9.50056C11.8251 9.21084 12.0571 9.03161 12.5208 9.03161L15.9928 9.031C16.5401 9.13841 16.6628 9.38394 16.7371 9.93514L16.7402 13.7936C16.7337 14.0069 16.8473 14.6391 17.2303 14.7787C17.5372 14.88 17.7398 14.6339 17.9233 14.4396C18.7559 13.556 19.3492 12.5131 19.8804 11.4338C20.1149 10.9577 20.3171 10.4652 20.5136 9.97166C20.6596 9.60675 20.8868 9.42721 21.2986 9.43335L24.6421 9.43734C24.7406 9.43734 24.8406 9.43826 24.9382 9.45514C25.5017 9.55151 25.6561 9.79396 25.4817 10.3436C25.2074 11.2073 24.6743 11.9266 24.1532 12.6479C23.5946 13.4201 22.9989 14.1652 22.4458 14.9408C21.9376 15.6497 21.9778 16.0066 22.6088 16.6223Z"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

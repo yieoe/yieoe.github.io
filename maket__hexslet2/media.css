@@ -1,0 +1,238 @@
+@media (max-width: 1390px) {
+  .header__container {
+    width: 100%;
+    gap: 82px;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+
+  .header__list {
+    gap: 33px;
+  }
+  .header__logo {
+    width: 166px;
+    height: 26px;
+  }
+  /* intro */
+  .intro__container {
+    width: 100%;
+  }
+  .intro__left {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .intro__title {
+    font-size: 34px;
+  }
+
+  /* ABOUT */
+  .about__container {
+    width: 100%;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+
+  /* PROJECTS */
+  .containers {
+    width: 100%;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+
+  .containers {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
+  }
+
+  .project__img__left {
+    width: 100%;
+    height: 187px;
+  }
+
+  .banner {
+    top: auto;
+    right: 0;
+    max-width: 100%;
+    min-height: 157px;
+  }
+
+  /* FOOTER */
+  .footer__content {
+    gap: 70px;
+  }
+}
+
+@media (max-width: 980px) {
+  .header__container {
+    max-width: 768px;
+    /* gap: 82px; */
+    padding-left: 28px;
+    padding-right: 28px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 27px;
+  }
+  .header__list {
+    gap: 72px;
+  }
+  .header__logo {
+    order: 1;
+  }
+  .header__nav {
+    order: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-color: #4a4a4a; */
+  }
+  .header__search {
+    order: 2;
+    justify-self: end;
+  }
+  /* intro */
+  .intro__container {
+    max-width: 768px;
+  }
+  .intro__title {
+    max-width: 239px;
+  }
+
+  /* about  */
+  .about__camera {
+    height: 569px;
+  }
+  .about__input {
+    margin-bottom: 36px;
+  }
+
+  /* PROJECTS */
+
+  .project__left__button {
+    margin-bottom: 30px;
+    margin-top: 54px;
+  }
+  .project__right__button {
+    margin-bottom: 30px;
+    margin-top: 54px;
+  }
+  .project3 {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* CONTACTS */
+  .contacts__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  form {
+    max-width: 468px;
+  }
+  .container__text {
+    display: none;
+  }
+  .footer__content {
+    gap: 291px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+}
+
+@media (max-width: 660px) {
+  .header__container {
+    max-width: 100%;
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+  .header__logo {
+    width: 111px;
+    height: 18px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__search {
+    width: 20px;
+    height: 20px;
+  }
+  /* intro */
+  .intro {
+    padding-top: 30px;
+  }
+  .intro__container {
+    max-width: 320px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+  .intro__title {
+    font-size: 24px;
+    max-width: 169px;
+  }
+  .intro__more {
+    padding: 12px 22px;
+  }
+  .intro__dscr {
+    font-size: 24px;
+  }
+  /* ABOUT */
+  .about__input {
+    margin-bottom: 36px;
+  }
+  .about__camera {
+    height: 278px;
+    width: 278px;
+  }
+  .about__text {
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 18px;
+    font-size: 14px;
+  }
+  .about__input {
+    padding-left: 21px;
+    padding-right: 21px;
+    max-width: 278px;
+    height: 40px;
+    margin-right: 0;
+  }
+  .containers {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .projects__left__top {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .projects__right__bottom {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  /* CONTACTS */
+  .contacts__container {
+    padding: 0;
+  }
+  .containers {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+  /* FOOTER */
+  .footer__content {
+    max-width: 320px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .container__logo {
+    order: 2;
+    text-align: center;
+  }
+  .container__more {
+    order: 1;
+  }
+}
